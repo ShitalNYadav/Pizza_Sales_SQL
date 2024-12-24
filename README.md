@@ -42,7 +42,35 @@ Links to the “ pizza_types” via pizza_type_id  and with “order_details” 
 
 ## Entity-Relationship Diagram (ERD):
 
+
 ![image](https://github.com/user-attachments/assets/8b85492e-3854-4ba8-ab44-291fe8ee6e8c)
+
+# SQL Queries:
+1. Retrieve the total number of orders placed.
+2. Calculate the total revenue generated from pizza sales.
+3. Identify the highest-priced pizza.
+4. Identify the most common pizza size ordered.
+5. List the top 5 most ordered pizza types along with their quantities.
+6. Join the necessary tables to find the total quantity of each pizza category ordered.
+7. Determine the distribution of orders by hour of the day.
+8. Join relevant tables to find the category-wise distribution of pizzas.
+9. Group the orders by date and calculate the average number of pizzas ordered per day.
+10. Group the orders by date and calculate the average number of pizzas ordered per day.
+11. Determine the top 3 most ordered pizza types based on revenue.
+12. Calculate the percentage contribution of each pizza type to total revenue.
+13. Analyze the cumulative revenue generated over time.
+14. Determine the top 3 most ordered pizza types based on revenue for each pizza category.
+
+# Key Insights and Analysis
+* Popular Pizza Types: Query results showing the most ordered pizza types.
+* Order Trends: Number of orders per day or time of day (e.g., peak order times).
+* Quantity Trends: Most commonly ordered quantities for different pizza types.
+* Sales by Category: Analysis of which pizza categories (e.g., Chicken, Veg) are most popular.
+
+
+
+
+
 
 
 
