@@ -36,9 +36,13 @@ Links to the “order_details” table via order_id.
 * Describes the types of pizzas available, with a unique pizza_type_id, name, category (e.g., Chicken, Veg), and ingredients.
 Links to the “order_details” table via pizza_id (though there may be differences in ID format that need mapping).
 
-* Pizzas  
-**This table has information about pizza size and price of each pizza types 
-Links to the “ pizza_types” via pizza_type_id  and with “order_details” via pizza_id**
+**Pizzas**  
+* This table has information about pizza size and price of each pizza types 
+Links to the “ pizza_types” via pizza_type_id  and with “order_details” via pizza_id
+
+## Entity-Relationship Diagram (ERD):
+
+![image](https://github.com/user-attachments/assets/8b85492e-3854-4ba8-ab44-291fe8ee6e8c)
 
 
 
