@@ -24,17 +24,17 @@ Order_details, pizzas, orders and pizza_types
 
 * Here’s a concise description of each table in the dataset:
 
-* order_details  
-  **Stores details about each item (pizza) in an order, such as the specific pizza (pizza_id), the order it belongs to (order_id), and the quantity ordered.
-Links to the “orders” table via order_id and to the pizza_types table via pizza_id.**
+**order_details**  
+* Stores details about each item (pizza) in an order, such as the specific pizza (pizza_id), the order it belongs to (order_id), and the quantity ordered.
+Links to the “orders” table via order_id and to the pizza_types table via pizza_id.
 
-* orders 
-**Contains information about customer orders, including the unique order_id, the date (date), and time (time) the order was placed.
-Links to the “order_details” table via order_id.**
+**orders**
+* Contains information about customer orders, including the unique order_id, the date (date), and time (time) the order was placed.
+Links to the “order_details” table via order_id.
 
-* pizza_types 
-**Describes the types of pizzas available, with a unique pizza_type_id, name, category (e.g., Chicken, Veg), and ingredients.
-Links to the “order_details” table via pizza_id (though there may be differences in ID format that need mapping).**
+**pizza_types** 
+* Describes the types of pizzas available, with a unique pizza_type_id, name, category (e.g., Chicken, Veg), and ingredients.
+Links to the “order_details” table via pizza_id (though there may be differences in ID format that need mapping).
 
 * Pizzas  
 **This table has information about pizza size and price of each pizza types 
