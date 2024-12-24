@@ -1,10 +1,10 @@
 # Pizza Sales Analysis
 
 ## Steps Included 
-* Understanding the Business Problem
-* Import dataset into the Database 
-* Exploring tables present in the Database to identify key variables
-* Analyzing the key variables
+* Understanding the Business Problem.
+* Import dataset into the Database.
+* Exploring tables present in the Database to identify key insights.
+* Analyzing all tables by using given queries.
 * Creating Report with all the results and analysis for the company.
 
 ## Skills 
